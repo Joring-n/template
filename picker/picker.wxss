@@ -1,0 +1,29 @@
+
+/* 选择订单类型 */
+
+.orderType {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 25rpx;
+  align-items: center;
+  color: #777777
+}
+
+.orderType .type {
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 70%;
+  background: #F3F3F3;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.orderType .type image{
+  height: 10rpx;
+  width: 25rpx
+}
+
+.orderType .type .pv {
+  height: 100%;
+}

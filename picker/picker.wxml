@@ -1,0 +1,9 @@
+<view class="orderType">
+    <view class="way">∂©µ•¿‡–Õ£∫</view>
+    <view class='type'>
+      <picker value="{{index}}" class='pv' bindchange="onOrderChange" range="{{orderType}}">
+        <view class='item'>{{orderType[index]}}</view>
+      </picker>
+      <image src="/images/min/gengduo.png"></image>
+    </view>
+  </view>
